@@ -1,27 +1,25 @@
 //
-//  gittestTests.m
-//  gittestTests
+//  gitTestTests.m
+//  gitTestTests
 //
-//  Created by 强淑婷 on 2019/1/8.
-//  Copyright © 2019年 强淑婷. All rights reserved.
+//  Created by mac on 2019/1/10.
+//  Copyright © 2019 姜凯文. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface gittestTests : XCTestCase
+@interface gitTestTests : XCTestCase
 
 @end
 
-@implementation gittestTests
+@implementation gitTestTests
 
 - (void)setUp {
-    [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
 }
 
 - (void)testExample {
