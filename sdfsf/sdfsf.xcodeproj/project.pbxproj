@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04148E5A21E788A0009524A6 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04148E5921E788A0009524A6 /* OneViewController.m */; };
 		97878C6B21E787A4002AA4EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97878C6A21E787A4002AA4EE /* AppDelegate.m */; };
 		97878C6E21E787A4002AA4EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97878C6D21E787A4002AA4EE /* ViewController.m */; };
 		97878C7121E787A4002AA4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97878C6F21E787A4002AA4EE /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04148E5821E788A0009524A6 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		04148E5921E788A0009524A6 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		97878C6621E787A4002AA4EE /* sdfsf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdfsf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97878C6921E787A4002AA4EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97878C6A21E787A4002AA4EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				97878C7421E787A6002AA4EE /* LaunchScreen.storyboard */,
 				97878C7721E787A6002AA4EE /* Info.plist */,
 				97878C7821E787A6002AA4EE /* main.m */,
+				04148E5821E788A0009524A6 /* OneViewController.h */,
+				04148E5921E788A0009524A6 /* OneViewController.m */,
 			);
 			path = sdfsf;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				97878C6E21E787A4002AA4EE /* ViewController.m in Sources */,
 				97878C7921E787A6002AA4EE /* main.m in Sources */,
 				97878C6B21E787A4002AA4EE /* AppDelegate.m in Sources */,
+				04148E5A21E788A0009524A6 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

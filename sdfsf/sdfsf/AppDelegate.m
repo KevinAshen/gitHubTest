@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "OneViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    OneViewController *oneViewController = [[OneViewController alloc] init];
+    self.window.rootViewController = oneViewController;
     // Override point for customization after application launch.
     return YES;
 }
